@@ -1,0 +1,37 @@
+
+
+Changing the JDK of a project:
+
+CMD+; (Project Settings)
+
+Modules
+Select the project you wish to change in the center panel.
+Select an appropriate JDK in the right panel under Module SDK: 
+	(use the pull down menue)
+
+Click Apply/OK
+
+
+Run Configuration
+-----------------
+Run
+Edit Configurations
++
+JAR Application
+ Name:02_02.jar
+	Working dir: /Users/marco/IdeaProjects.colab/SeleniumEssentialTraining/src/SeleniumEssentialTraining
+	JRE: 15
+	Path to jar: /Users/marco/IdeaProjects/01_04/out/artifacts/01_04_jar/01_04.jar
+	Before launch
+	Build '01_04.jar' artifact
+Application
+ Name: KeyboardAndMouseInput
+  Build and run
+		Modify Options
+	java 15 - com.example.KeyboardAndMouseInput
+	working directory /Users/marco/idaProjects.colab/SeleniumEssentialTraining/src/SeleniumEssentialTraining/Ex_Files_Selenium_EssT/Exercise Files/02_02	
+	/Users/marco/IdeaProjects.colab/SeleniumEssentialTraining/src/SeleniumEssentialTraining
+	packages and classes to inclode in vocerage data
+	[x]com.example/KeyboardAndMouseInput
+
+
